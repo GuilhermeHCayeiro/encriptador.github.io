@@ -1,0 +1,95 @@
+.tituloPrincipal {
+
+  font-family: 'Consolas';
+  text-align: center;
+  color: #8FFF9B;
+  position: absolute;
+  line-height: 55px;
+  width: 100vw;
+  height: 60px;
+  left: 0;
+  top: -24;
+
+  background: rgba(34, 150, 80, 0.3);
+  backdrop-filter: blur(2px);
+
+
+}
+
+.areaEncriptar {
+  position: absolute;
+  width: 540px;
+  height: 500px;
+  top: 60px;
+  left: 400;
+
+}
+
+.encText {
+  padding: 10px;
+  border-radius: 4px;
+  font-family: 'Consolas';
+  font-size: 20px;
+  color: #8FFF9B;
+  position: absolute;
+  width: 540px;
+  height: 195px;
+  background: rgba(34, 150, 80, 0.3);
+  backdrop-filter: blur(2px);
+
+
+}
+
+.botoes {
+  align-items: center;
+  font-family: 'Consolas';
+  color: #8FFF9B;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  backdrop-filter: blur(2px);
+  background: rgba(34, 150, 80, 0.3);
+}
+
+.rodape {
+  font-family: 'Consolas';
+  text-align: center;
+  align-items: center;
+  color: #8FFF9B;
+  position: absolute;
+  top: 600px;
+  left: 0px;
+  width: 100vw;
+  height: 110px;
+
+  background: rgba(34, 150, 80, 0.3);
+  backdrop-filter: blur(2px);
+
+}
+
+.github{
+  background-image: url(imagens/git.png);
+  cursor: pointer;
+  border-radius: 6px;
+  position: absolute;
+  top: 40px;
+  left: 620px;
+  width: 48px;
+  height: 48px;
+}
+
+.linkedin{
+  padding: 0px;
+  background-image: url(imagens/linkedin.png);
+  cursor: pointer;
+  border-radius: 6px;
+  position: absolute;
+  top: 40px;
+  left: 700px;
+  width: 48px;
+  height: 48px;
+
+}
